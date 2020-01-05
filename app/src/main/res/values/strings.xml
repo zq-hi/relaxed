@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Make_12.30</string>
+    <string name="t1">销售报表</string>
+    <string name="t2">环境监控</string>
+    <string name="t3">生产线监控</string>
+    <string name="t4">智能采购</string>
+    <string name="t5">成品仓库</string>
+    <string name="t6">车辆定制</string>
+    <string name="t7">车辆生产过程监控</string>
+    <string name="t8">人事管理</string>
+</resources>

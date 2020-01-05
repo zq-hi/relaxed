@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_backgroud"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/backgroud">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text=" 首页"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@color/backgroud"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/t1_ImageView"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/t2_ImageView"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/t3_ImageView"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/t4_ImageView"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/t1"
+            android:layout_marginLeft="120dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/t2"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/t3"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/t4"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="100dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/t5_ImageView"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/t6_ImageView"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/t7_ImageView"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/t8_ImageView"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/t8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/t5"
+            android:layout_marginLeft="120dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/t6"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/t7"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/t8"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="100dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

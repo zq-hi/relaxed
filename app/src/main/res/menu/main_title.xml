@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/t1" android:title="销售报表"></item>
+    <item android:id="@+id/t2" android:title="环境监控"></item>
+    <item android:id="@+id/t3" android:title="生产线监控"></item>
+    <item android:id="@+id/t4" android:title="智能采购"></item>
+    <item android:id="@+id/t5" android:title="成品仓库"></item>
+    <item android:id="@+id/t6" android:title="车辆定制"></item>
+    <item android:id="@+id/t7" android:title="车辆生产过程监控"></item>
+    <item android:id="@+id/t8" android:title="人事管理"></item>
+</menu>
